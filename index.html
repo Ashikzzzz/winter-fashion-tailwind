@@ -3,10 +3,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Women Winter Fashion</title>
+    <title> Winter Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                penguin: '#FFFBF0'
+              }
+            }
+          }
+        }
+      </script>
+
 </head>
 <body>
-    <h1 class="bg-slate-700 text-lg text-cyan-400" >hi am there</h1>
+   <header class="penguin pb-32 pt-12">
+    <section   class="container mx-auto flex items-center justify-around" >
+        <div class="space-y-3">
+            <h1 class="font-bold text-5xl uppercase ">
+                <span class="text-yellow-500">Be the penguin</span>
+                <br>
+                <span class="text-violet-900">Of the Winter</span>
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ab adipisci perferendis sit ducimus sed?</p>
+            <button class="uppercase font-bold bg-lime-500 px-7 rounded-xl py-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg> Buy Now</button>
+        </div>
+        <div>
+            <img src="images/model.png" alt="">
+        </div>
+    </section>
+   </header>
 </body>
 </html>
